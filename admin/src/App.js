@@ -26,7 +26,7 @@ function App() {
         </Route>
         <Route exact path="/website">
           {()=> {
-            window.location.replace('http://localhost:3000');
+            window.location.replace('https://sashopping-client.herokuapp.com/');
             return null;
           }}  
         </Route>

@@ -34,3 +34,7 @@ app.use("/api/commentsratings", commentsratingsRoute)
 app.listen(process.env.PORT || 5000, () => {
   console.log("Server Is Running !");
 });
+
+app.get('/', (req, res)=> {
+  res.send("Welcome to the server side")
+})

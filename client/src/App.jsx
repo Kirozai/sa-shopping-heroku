@@ -29,7 +29,7 @@ const App = () => {
         </Route>
         <Route exact path="/adminpanel">
           {()=> {
-            window.location.replace('http://localhost:3001');
+            window.location.replace('https://dashboard.heroku.com/apps/sashopping-admin');
             return null;
           }}  
         </Route>
